@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+</html>
+<main>
+    <section>
+        <h2>Application Form for Audio & Video Editor</h2>
+        <form action="#">
+            <div>
+                <label for="fullname">Full Name</label>
+                <input type="text" placeholder="Enter your name" id="fullname" name="fullname">
+            </div>
+            <div>
+                <label for="contact-email">Contact Email</label>
+                <input type="email" placeholder="e.g., johndoe@example.com" id="contact-email" name="email">
+            </div>
+            <div>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+            <div>
+                <legend>Choose Available Facilities</legend>
+                <fieldset>
+                    <label><input type="checkbox" name="facility" value="ac"> Air Conditioning</label>
+                    <label><input type="checkbox" name="facility" value="pc"> Personal Computer</label>
+                    <label><input type="checkbox" name="facility" value="gym"> Gym Access</label>
+                    <label><input type="checkbox" name="facility" value="snacks"> Complimentary Snacks</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="tools">Tools You Use</label>
+                <select name="tools" id="tools" multiple size="4">
+                    <option value="adobe">Adobe Premiere</option>
+                    <option value="final-cut">Final Cut Pro</option>
+                    <option value="davinci">DaVinci Resolve</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="preferred-food">Preferred Food</label>
+                <input list="food-options" id="preferred-food" name="food">
+                <datalist id="food-options">
+                    <option value="Vegetarian"></option>
+                    <option value="Non-Vegetarian"></option>
+                    <option value="Vegan"></option>
+                </datalist>
+            </div>
+            <div>
+                <legend>File Uploads</legend>
+                <fieldset>
+                    <label for="profile-pic">Profile Picture</label>
+                    <input type="file" id="profile-pic" name="photo" accept="image/png, image/jpeg">
+                    <label for="cv">Curriculum Vitae</label>
+                    <input type="file" id="cv" name="resume" accept=".pdf">
+                    <label for="salary-slips">Salary Slips</label>
+                    <input type="file" id="salary-slips" name="payslip" accept=".xlsx">
+                </fieldset>
+            </div>
+            <div>
+                <label for="about-us">How Did You Learn About Us?</label>
+                <textarea name="about-us" id="about-us" rows="4" placeholder="Write here..."></textarea>
+            </div>
+            <div>
+                <label for="salary-range">Expected Salary (in LPA)</label>
+                <input type="range" name="salary" id="salary-range" min="1" max="20" step="1">
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="locations">
+        <h2>Our Office Locations</h2>
+        <article class="embeddings_embedstuff">
+            <h3>Main Office</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30148.399367170223!2d72.94850848620814!3d19.1711689027467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce8cb8205a6d%3A0x3ecdf1de6f56b8c2!2sMagic%20Bus%20India%20Foundation!5e0!3m2!1sen!2sin!4v1731911964613!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+    </section>
+
+    <section>
+        <h2>Stay Updated</h2>
+        <form action="#">
+            <div>
+                <label for="newsletter-email">Subscribe to our Newsletter</label>
+                <input type="email" id="newsletter-email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </div>
+        </form>
+        <p>For inquiries: <a href="mailto:contact@organization.com">Email Us</a></p>
+    </section>
+</main>
+</body>
+
+</html>

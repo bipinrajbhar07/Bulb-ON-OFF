@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+
+.afterline{
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
+    scroll-margin: 4rem;
+}
+
+.provide{
+    color: purple;
+}
+
+.homerock{
+    width: 50%;
+}
+
+.homerock img{
+    width: 100%;
+}
+
+#home h2{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.rockettype{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.rockettype picture img{
+    width: 80%;
+}
+.rockettype p{
+    width: 50%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+#rockets h2{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;  
+    margin-bottom: 4rem;  
+}
+
+#rockets{
+    min-height: 100vh;
+    scroll-margin-top:4rem ;
+}
+
+marquee{
+    display: flex;
+    gap: 4rem;
+    margin: 4rem;
+    justify-content: center;
+}
+
+.oneimg{
+    width: 400px;
+    overflow: hidden;
+}
+
+.diffrockets{
+    border-radius: 10px;
+    overscroll-behavior-inline: s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    margin: 4rem;
+}
+.diffrockets h3{
+    font-size: 2rem;
+
+}
+
+.diffrockets p{
+    font-size: 1.5rem;
+    color: black;
+    opacity: 0.6;
+    width: 40px;
+    flex-grow: 1;
+}
+
+
+#testimonial h3{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+#testimonial{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
+    scroll-margin: 4rem;
+    height: 100vh;
+}
